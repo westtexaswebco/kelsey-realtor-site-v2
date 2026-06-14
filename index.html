@@ -18,7 +18,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="listings.html">Listings</a></li>
-                <li><a href="contact.html">Contact</a></li>
+               
             </ul>
 
         </nav>
@@ -46,8 +46,25 @@
 
         <div class="hero-content">
             <h2> Helping You Find Your Dream Home</h2>
-            <p> Modern real estate guidance with a personal touch.</p>
-            <button>Contact Me</button>
+            <p class="hero-subtitle">
+                Modern real estate guidance with a personal touch.
+            </p>
+
+            <p class="hero-description">
+                Buying, selling, or exploring your options? Reach out below and Kelsey will be in touch.
+            </p>
+
+            
+            <form class="contact-form" action="https://formspree.io/f/mvznkozd" method="POST">
+                
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number">
+                
+                <textarea name="message" placeholder="How can I help you?" required></textarea>
+                <button type="submit">Send Message</button>
+                
+            </form>
             
         </div>
 
