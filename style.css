@@ -950,6 +950,45 @@ contact-info p:first-of-type {
         padding: 0 6% 80px;
     }
 
+    @media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 130px 20px 60px;
+        min-height: auto;
+        gap: 30px;
+    }
+
+    .profile-card {
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 360px;
+        padding: 28px 22px;
+        order: 1;
+    }
+
+    .hero-content h2 {
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+
+    .contact-form {
+        max-width: 100%;
+        padding: 22px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        font-size: 0.95rem;
+    }
+}
+
     }
 
 
