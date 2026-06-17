@@ -98,6 +98,13 @@ header {
     padding: 120px 40px;
 
     background-color: #111;
+
+
+    gap: 80px;
+
+    min-height: 100vh;
+
+    padding: 140px 80px 80px;
 }
 
 
