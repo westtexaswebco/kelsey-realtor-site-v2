@@ -81,6 +81,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    gap: 60px;
     
 
     min-height: 100vh;
@@ -1227,6 +1229,10 @@ contact-info p:first-of-type {
 
         padding: 28px 22px;
 
+    }
+
+    .hero {
+    gap: 80px;
     }
 
     .diana-romans-logo {
