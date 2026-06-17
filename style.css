@@ -81,10 +81,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 70px;
 
     min-height: 100vh;
     padding: 130px 80px 80px;
+
+    position: relative;
 }
 
 .profile-card{
@@ -282,10 +284,6 @@ button:hover {
 }
 
 .profile-card {
-    position: absolute;
-    top: 170px;
-    left: 40px;
-
     width: 260px;
     padding: 24px;
 
@@ -300,6 +298,7 @@ button:hover {
 
     box-shadow: 0 12px 35px rgba(0,0,0,0.3);
 
+    position: relative;
     z-index: 2;
 }
 
