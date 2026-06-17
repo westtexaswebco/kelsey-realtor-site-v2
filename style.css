@@ -107,6 +107,14 @@ header {
     padding: 140px 80px 80px;
 }
 
+.profile-card{
+    margin:0;
+}
+
+.hero-content{
+    margin:0;
+}
+
 
 
 h1, h2, h3 {
