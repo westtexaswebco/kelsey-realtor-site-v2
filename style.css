@@ -100,11 +100,13 @@ header {
     background-color: #111;
 
 
-    gap: 80px;
+    gap: 70px;
+
+    width: 100%;
 
     min-height: 100vh;
 
-    padding: 140px 80px 80px;
+    padding: 140px 5% 80px;
 }
 
 .profile-card{
@@ -319,6 +321,14 @@ button:hover {
     box-shadow: 0 12px 35px rgba(0,0,0,0.3);
 
     z-index: 2;
+}
+
+.profile-card {
+    flex: 0 0 260px;
+}
+
+.hero-content {
+    flex: 0 1 560px;
 }
 
 .profile-card img {
