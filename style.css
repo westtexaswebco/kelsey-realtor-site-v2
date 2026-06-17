@@ -353,6 +353,19 @@ button:hover {
 
 }
 
+.contact-link {
+    display: block;
+    margin: 12px 0;
+    color: #d9c095;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.contact-link:hover {
+    color: #fff;
+}
+
 footer {
     background-color: #0d0d0d;
 
@@ -1185,6 +1198,33 @@ contact-info p:first-of-type {
     .diana-romans-logo {
 
         max-width: 120px;
+
+    }
+
+    .diana-romans-logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-top: 18px;
+    }
+
+    .profile-card{
+
+        padding: 30px 25px;
+
+        min-height: auto;
+
+    }
+
+    .profile-card h3{
+
+        font-size:1.9rem;
+
+    }
+
+    .profile-card p{
+
+        margin:8px 0;
 
     }
 
