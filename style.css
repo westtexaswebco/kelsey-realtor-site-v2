@@ -1238,31 +1238,7 @@ contact-info p:first-of-type {
 
 }
 
-/* DESKTOP HOME HERO RESET */
-@media (min-width: 769px) {
-    .hero {
-        display: grid;
-        grid-template-columns: 260px 520px 260px;
-        align-items: center;
-        justify-items: center;
-        column-gap: 60px;
 
-        min-height: 100vh;
-        padding: 130px 5% 80px;
-    }
-
-    .profile-card {
-        grid-column: 1;
-        width: 260px;
-        margin: 0;
-    }
-
-    .hero-content {
-        grid-column: 2;
-        width: 520px;
-        margin: 0;
-    }
-}
 
 
 
