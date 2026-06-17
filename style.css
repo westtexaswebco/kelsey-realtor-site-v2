@@ -1123,6 +1123,74 @@ contact-info p:first-of-type {
         font-size: 0.85rem;
         padding: 10px 14px;
     }
+
+     .hero {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: flex-start;
+
+        gap: 35px;
+
+        padding: 170px 20px 70px;
+
+        min-height: auto;
+
+    }
+
+    .profile-card,
+
+    .hero-content {
+
+        position: relative;
+
+        left: auto;
+
+        right: auto;
+
+        top: auto;
+
+        bottom: auto;
+
+        transform: none;
+
+        margin: 0 auto;
+
+        width: 100%;
+
+        max-width: 340px;
+
+    }
+
+    .profile-card {
+
+        order: 1;
+
+    }
+
+    .hero-content {
+
+        order: 2;
+
+        max-width: 360px;
+
+        padding: 28px 22px;
+
+    }
+
+    .diana-romans-logo {
+
+        max-width: 120px;
+
+    }
+
+
+
+
 }
 
     }
