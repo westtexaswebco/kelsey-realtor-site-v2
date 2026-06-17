@@ -1240,6 +1240,41 @@ contact-info p:first-of-type {
 
 }
 
+/* FINAL DESKTOP HERO ALIGNMENT FIX */
+@media (min-width: 769px) {
+    .hero {
+        display: grid !important;
+        grid-template-columns: 280px 560px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 70px !important;
+
+        width: 100% !important;
+        min-height: 100vh !important;
+        padding: 130px 5% 80px !important;
+    }
+
+    .profile-card {
+        position: relative !important;
+        left: auto !important;
+        right: auto !important;
+        transform: none !important;
+
+        width: 280px !important;
+        margin: 0 !important;
+    }
+
+    .hero-content {
+        position: relative !important;
+        left: auto !important;
+        right: auto !important;
+        transform: none !important;
+
+        width: 560px !important;
+        margin: 0 !important;
+    }
+}
+
     }
 
 
