@@ -969,10 +969,18 @@ contact-info p:first-of-type {
         gap: 35px;
 
         min-height: auto;
-    }
+
+         display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: flex-start;
+        }
 
     .profile-card {
-        order: 2;
+        order: 1;
 
         position: relative;
 
@@ -986,7 +994,7 @@ contact-info p:first-of-type {
     }
 
     .hero-content {
-        order: 1;
+        order: 2;
 
         position: relative;
 
@@ -1098,6 +1106,22 @@ contact-info p:first-of-type {
 
         line-height: 1.6;
 
+    }
+
+        .specialties-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 0;
+    }
+
+    .specialties-list li {
+        width: auto;
+        max-width: 150px;
+        text-align: center;
+        font-size: 0.85rem;
+        padding: 10px 14px;
     }
 }
 
