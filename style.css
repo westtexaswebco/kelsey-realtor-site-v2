@@ -78,42 +78,24 @@ header {
 }
 
 .hero {
-    
-    
-
-    min-height: 100vh;
-
-    position: relative;
-
-    overflow: hidden;
-
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 280px 560px;
     justify-content: center;
-
     align-items: center;
-
-    text-align: center;
-
-    padding: 120px 40px;
-
-    background-color: #111;
-
-
     gap: 70px;
 
     width: 100%;
-
     min-height: 100vh;
-
-    padding: 140px 5% 80px;
+    padding: 130px 5% 80px;
 }
 
 .profile-card{
+    width: 280px;
     margin:0;
 }
 
 .hero-content{
+    width: 560px;
     margin:0;
 }
 
